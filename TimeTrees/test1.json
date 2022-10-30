@@ -1,0 +1,59 @@
+[
+  {
+    "TypeandConnectionIds": {
+      "Child": [
+        3
+      ]
+    },
+    "Id": 1,
+    "Person": {
+      "Id": 1,
+      "Name": "",
+      "Mother": null,
+      "Father": null,
+      "BirthDate": "2003-01-01T00:00:00",
+      "DeathDate": null
+    },
+    "RectCenter": "303.2,293.8"
+  },
+  {
+    "TypeandConnectionIds": {
+      "Parent": [
+        4
+      ]
+    },
+    "Id": 2,
+    "Person": null,
+    "RectCenter": "558.4,93"
+  },
+  {
+    "TypeandConnectionIds": {
+      "Spouse": [
+        2
+      ],
+      "Parent": [
+        1
+      ]
+    },
+    "Id": 3,
+    "Person": {
+      "Id": 3,
+      "Name": "63н45",
+      "Mother": null,
+      "Father": null,
+      "BirthDate": "1970-01-01T00:00:00",
+      "DeathDate": "2008-01-01T00:00:00"
+    },
+    "RectCenter": "292.8,84.2"
+  },
+  {
+    "TypeandConnectionIds": {
+      "Child": [
+        2
+      ]
+    },
+    "Id": 4,
+    "Person": null,
+    "RectCenter": "504.8,328.2"
+  }
+]

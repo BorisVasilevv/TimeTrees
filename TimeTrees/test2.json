@@ -1,0 +1,58 @@
+[
+  {
+    "TypeandConnectionIds": {
+      "Spouse": [
+        2
+      ],
+      "Parent": [
+        3
+      ]
+    },
+    "Id": 1,
+    "Person": {
+      "Id": 1,
+      "Name": "FIO",
+      "Mother": null,
+      "Father": null,
+      "BirthDate": "1917-10-17T00:00:00",
+      "DeathDate": "1993-10-09T00:00:00"
+    },
+    "RectCenter": "526.4,85"
+  },
+  {
+    "TypeandConnectionIds": {},
+    "Id": 2,
+    "Person": {
+      "Id": 2,
+      "Name": "SMTH",
+      "Mother": null,
+      "Father": null,
+      "BirthDate": "1290-09-13T00:00:00",
+      "DeathDate": "1890-02-15T00:00:00"
+    },
+    "RectCenter": "214.4,99.4"
+  },
+  {
+    "TypeandConnectionIds": {
+      "Child": [
+        1
+      ]
+    },
+    "Id": 3,
+    "Person": {
+      "Id": 3,
+      "Name": "baby",
+      "Mother": null,
+      "Father": null,
+      "BirthDate": "1970-01-01T00:00:00",
+      "DeathDate": "2007-01-01T00:00:00"
+    },
+    "RectCenter": "398.40000000000003,327.40000000000003"
+  },
+  {
+    "TypeandConnectionIds": {},
+    "Id": 4,
+    "Person": null,
+    "RectCenter": "69.60000000000001,99.2"
+  }
+]

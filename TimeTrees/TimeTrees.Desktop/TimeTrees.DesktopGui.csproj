@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ImageChild.jpg" />
+    <None Remove="ImageConnection.jpg" />
+    <None Remove="ImagePerson.jpg" />
+    <None Remove="ImageSave.jpg" />
+    <None Remove="ImageWrite.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TimeTrees.Core\TimeTrees.Core.csproj" />
+    <ProjectReference Include="..\TimeTrees\TimeTrees.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ImageChild.jpg" />
+    <Resource Include="ImageConnection.jpg" />
+    <Resource Include="ImagePerson.jpg" />
+    <Resource Include="ImageSave.jpg" />
+    <Resource Include="ImageWrite.jpg" />
+  </ItemGroup>
+
+</Project>
